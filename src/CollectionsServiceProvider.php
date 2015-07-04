@@ -30,6 +30,7 @@ class CollectionsServiceProvider extends ServiceProvider
         $this->setHelpers();
         $this->setViews();
         $this->setMigrations();
+        $this->setAssets();
         $this->setLanguage();
     }
 
