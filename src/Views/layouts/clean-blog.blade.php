@@ -12,10 +12,10 @@
     <title>Clean Blog - About</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/clean-blog/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/cornernote/collections/themes/clean-blog/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/clean-blog/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/cornernote/collections/themes/clean-blog/css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -130,10 +130,10 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="/clean-blog/js/jquery.js"></script>
+    <script src="/cornernote/collections/themes/clean-blog/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/clean-blog/js/bootstrap.min.js"></script>
+    <script src="/cornernote/collections/themes/clean-blog/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="/clearn-blog/js/clean-blog.min.js"></script>
