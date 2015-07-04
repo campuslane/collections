@@ -105,7 +105,7 @@ class CollectionsServiceProvider extends ServiceProvider
     private function setAssets()
     {
         $this->publishes([
-            __DIR__.'Assets' => public_path('cornernote/collections'),
+            __DIR__.'/Assets' => public_path('cornernote/collections'),
         ], 'public');
     }
 
