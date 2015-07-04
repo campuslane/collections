@@ -93,7 +93,19 @@ class CollectionsServiceProvider extends ServiceProvider
     {
         $this->publishes([
             realpath(__DIR__.'/Migrations') => $this->app->databasePath().'/migrations',
+            
         ]);
+
+    }
+
+    /**
+     * Set Assets
+     */
+    private function setAssets()
+    {
+        $this->publishes([
+            __DIR__.'Assets' => public_path('cornernote/collections'),
+        ], 'public');
     }
 
     /**
