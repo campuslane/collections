@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCollectionsTable extends Migration
+class CreatePageTemplatesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,13 @@ class CreateCollectionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('collections', function (Blueprint $table) {
+        Schema::create('page_templates', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('parent_id')->default(0);
             $table->string('name');
-            $table->string('slug');
-            $table->string('type');
-            $table->string('description')->nullable();
-            $table->text('language');
+            $table->string('description');
+            $table->string('file');
+            $table->boolean('partial')->default(0);
+            $table->integer('order')->default(0);
             $table->timestamps();
         });
     }
@@ -31,6 +30,6 @@ class CreateCollectionsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('collections');
+        Schema::drop('page_templates');
     }
 }
